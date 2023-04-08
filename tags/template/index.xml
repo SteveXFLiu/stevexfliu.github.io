@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>template on On the Road</title>
+    <link>https://stevexfliu.github.io/tags/template/</link>
+    <description>Recent content in template on On the Road</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <managingEditor>stevexfliu@gmail.com (Steve Liu)</managingEditor>
+    <webMaster>stevexfliu@gmail.com (Steve Liu)</webMaster>
+    <lastBuildDate>Sat, 08 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://stevexfliu.github.io/tags/template/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Testing Post</title>
+      <link>https://stevexfliu.github.io/post/test/</link>
+      <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
+      <author>stevexfliu@gmail.com (Steve Liu)</author>
+      <guid>https://stevexfliu.github.io/post/test/</guid>
+      
+      <description>&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;We will test text, code, and $\LaTeX$ typesettings in this post.&lt;/p&gt;
+&lt;h2 id=&#34;2-text-typesetting&#34;&gt;2. Text Typesetting&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet elit nec urna dignissim lobortis. Nulla sed orci et magna aliquam aliquam nec vel ex. Nulla malesuada mollis ex, at semper dui fringilla sit amet. Integer vestibulum, libero vel blandit varius, sem velit fringilla erat, et varius sem libero eu ligula. Donec sit amet lorem libero. Donec lobortis ullamcorper sem at maximus. Fusce lorem leo, pretium eget libero eget, cursus aliquam libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque sed nibh justo.&lt;/p&gt;
+&lt;p&gt;Nunc at ante bibendum, pharetra nunc quis, pretium quam. Sed quis cursus elit. Etiam pulvinar mi ultrices enim bibendum imperdiet. Maecenas consequat, odio ut ultrices consectetur, erat sem tempus nisi, et pharetra sem lacus vitae arcu. Phasellus at risus eget velit hendrerit dictum. Duis vitae vulputate metus, non lobortis justo. Nulla vulputate diam nisl, et ornare nulla euismod dapibus. Etiam sed nibh nisl.&lt;/p&gt;
+&lt;h2 id=&#34;3-code-typesetting&#34;&gt;3. Code Typesetting&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s backtest a simple strategy of hloding TSLA from 2022-01-01 to 2022-12-31:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#080;font-style:italic&#34;&gt;# Import necessary libraries&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#00f;font-weight:bold&#34;&gt;yfinance&lt;/span&gt; &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#00f;font-weight:bold&#34;&gt;yf&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#00f;font-weight:bold&#34;&gt;bt&lt;/span&gt; &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;import&lt;/span&gt; Backtest
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#00f;font-weight:bold&#34;&gt;bt.algos&lt;/span&gt; &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;import&lt;/span&gt; BuyAndHold
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#080;font-style:italic&#34;&gt;# Download the historical data for TSLA stock prices from Yahoo Finance&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tsla &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; yf&lt;span style=&#34;color:#666&#34;&gt;.&lt;/span&gt;Ticker(&lt;span style=&#34;color:#b44&#34;&gt;&amp;#34;TSLA&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tsla_data &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; tsla&lt;span style=&#34;color:#666&#34;&gt;.&lt;/span&gt;history(start&lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#b44&#34;&gt;&amp;#34;2022-01-01&amp;#34;&lt;/span&gt;, end&lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#b44&#34;&gt;&amp;#34;2022-12-31&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#080;font-style:italic&#34;&gt;# Create a Backtest instance&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bt &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; Backtest(
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	data&lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt;tsla_data,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	algo&lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt;BuyAndHold,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	start&lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#b44&#34;&gt;&amp;#34;2022-01-01&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	end&lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#b44&#34;&gt;&amp;#34;2022-12-31&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	cash&lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;100000&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#080;font-style:italic&#34;&gt;# Run the backtest and print the result&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bt&lt;span style=&#34;color:#666&#34;&gt;.&lt;/span&gt;run()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a2f&#34;&gt;print&lt;/span&gt;(bt&lt;span style=&#34;color:#666&#34;&gt;.&lt;/span&gt;results)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;4-math-typesetting&#34;&gt;4. Math Typesetting&lt;/h2&gt;
+&lt;p&gt;A normal distribution or Gaussian distribution is a type of continuous probability distribution for a real-valued random variable. The general form of its probability density function is
+\begin{equation}
+\tag{1}
+f(x) = \cfrac{1}{\sigma\sqrt{2\pi}}e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}.
+\end{equation}
+The parameter $\mu$ in equation (1) is the mean or expectation of the distribution (and also its median and mode), while the parameter $\sigma$ is its standard deviation.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>

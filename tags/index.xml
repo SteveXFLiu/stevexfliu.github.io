@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on On the Road</title>
+    <link>https://stevexfliu.github.io/tags/</link>
+    <description>Recent content in Tags on On the Road</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <managingEditor>stevexfliu@gmail.com (Steve Liu)</managingEditor>
+    <webMaster>stevexfliu@gmail.com (Steve Liu)</webMaster>
+    <lastBuildDate>Sat, 08 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://stevexfliu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>template</title>
+      <link>https://stevexfliu.github.io/tags/template/</link>
+      <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
+      <author>stevexfliu@gmail.com (Steve Liu)</author>
+      <guid>https://stevexfliu.github.io/tags/template/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://stevexfliu.github.io/tags/test/</link>
+      <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
+      <author>stevexfliu@gmail.com (Steve Liu)</author>
+      <guid>https://stevexfliu.github.io/tags/test/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
